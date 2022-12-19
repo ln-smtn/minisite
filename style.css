@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+body {
+  font-family: 'Raleway', sans-serif;
+  background: url(https://thumbs.dreamstime.com/b/happy-new-year-festive-silvester-firework-background-panorama-greeting-card-banner-long-golden-fireworks-dark-blue-happy-new-234767080.jpg) no-repeat center center/cover;
+
+}
+h3{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.container {
+  width: 700px;
+  min-height: 600px;
+  border:10px solid white;
+  margin: 100px auto;
+  background: white;
+}
+
+.header {
+  display: flex;
+  height: 200px;
+}
+.title-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+  font-size: 40px;
+  font-weight: bold;
+  background: url(https://thumbs.dreamstime.com/b/happy-new-year-background-fireworks-golden-168038331.jpg) no-repeat center center/cover;
+  margin-right: 10px;
+}
+.userpic {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  background: url(https://sun9-65.userapi.com/impg/WRJPqieU0xFtMZxy40IV_0VWsGyOAAGd7cdZvg/Myu6RFJo2V4.jpg?size=750x491&quality=96&sign=59159bb224553714c8e21468c2d21881&type=album) no-repeat center center/cover;
+}
+.nav ul {
+  display: flex;
+  background: rgb(230,230,230);
+  margin: 10px 0;
+
+}
+
+
+.nav li a {
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  color: #404040;
+  bolder-right: 1px solid #d1d1d1;
+  transition: background .3s ease;
+}
+.nav li a:hover {
+  background: rgb(196,196,196);
+}
+
+.content-wrapper {
+  display:flex
+}
+.content{
+    font-weight:80%;
+    padding: 20px;
+    width: 65%;
+    height: 100%;
+
+}
+
+.sidebar {
+    border: 1 px solid red;
+    font-weight:20%;
+    padding: 20px;
+    width: 35%;
+    height: 100%;
+    margin-bottom: 60px;
+
+}
+
+.info-wrapper {
+  display:flex
+
+}
+
+.info {
+  font-weight:80%;
+  padding: 20px;
+  width: 65%;
+}
+
+.photo {
+  font-weight:20%;
+  padding: 20px;
+  width: 35%;
+  height: 200px;
+  background: url(https://sun9-59.userapi.com/impg/Iig-LA-Li7xK0bKSUCuwPc-KFUVL9l_z5ipRlQ/QLDBHTCwFsA.jpg?size=1000x668&quality=96&sign=874dfe2db01fb85d704d7479de5939d2&type=album) no-repeat center center/cover;
+}
+
+
+
+
+
+
